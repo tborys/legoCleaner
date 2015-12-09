@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="Push to server /Users/tborys/Development/lego/Projects/MotorMaven/target/MotorMaven.jar"></echo>
+  <scp todir="root@192.168.0.12:/home/lejos/programs" username="root" trust="yes" file="MotorMaven.jar" password=""/>
+</target>
+</project>
